@@ -6,6 +6,8 @@
 mvn package
 ```
 
+Дерево
+
 ```sh
 ├── pom.xml
 ├── README.md
@@ -19,3 +21,23 @@ mvn package
             └── calculator
                 └── CalculatorTest.java
 ```
+
+ Calculator.java
+
+```java
+package calculator;
+public class Calculator {
+
+	public int add(int a, int b) {
+		return a + b;
+	}
+
+}
+```
+
+CalculatorTest.java
+
+```java
+
+```java
+
